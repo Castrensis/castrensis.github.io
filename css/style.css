@@ -41,10 +41,6 @@ div .separator {
 	height: 250px;
 	border-top: 2px solid rgba(255, 255, 255, 0.3);
 	border-bottom: 2px solid rgba(255, 255, 255, 0.3);
-	/*
-	background-image: url("../img/bg2.png");
-	background-size: cover;
-	*/
 }
 
 div .content {
@@ -73,9 +69,12 @@ div .content ul {
 
 div .content p {
 	text-align: justify;
-	text-indent: 50px;
 	padding: 0px 10px 0px 10px;
 	margin-bottom: 15px;
+}
+
+.indent {
+	text-indent: 50px;
 }
 
 div .left-box {
